@@ -12,21 +12,21 @@
 
 <body>
   <div class="main">
-    <div class="header m-auto bg-white border-b-2 w-4/5">
+    <div class="header m-auto bg-white border-b-2 w-4/5 h-20">
       <div class="nav h-20 flex items-center justify-between relative mx-auto">
-        <div class="logo mx-4">
+        <div class="logo">
           <a aria-current="page" class="active" href="/">
-            <img src="./images/logo.svg" alt="logo">
+            <img class="h-14" src="./images/logo.svg" alt="logo">
           </a>
         </div>
-        <div class="nav-bar flex flex-shrink-0 font-medium text-base">
-          <div class="nav-link mx-2 self-center relative group">
+        <div class="nav-bar flex font-medium text-base items-stretch h-20">
+          <div class="nav-link mx-2 flex items-center relative group">
             <a href="">Acala<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg></a>
             <div
-              class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
+              class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
               <div class="submenu-item mb-1">
                 <a href="" class="submenu-item-link">Acala Home</a>
               </div>
@@ -41,13 +41,13 @@
               </div>
             </div>
           </div>
-          <div class="nav-link mx-4 self-center relative group">
+          <div class="nav-link mx-4 flex items-center relative group h-20">
             <a href="">Kamura<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg></a>
             <div
-              class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
+              class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
               <div class="submenu-item mb-1">
                 <a href="" class="submenu-item-link">Karura Home</a>
               </div>
@@ -66,13 +66,13 @@
           <div class="nav-link mx-4 self-center text-blue-600 relative group">
             <a href="">aUSD</a>
           </div>
-          <div class="nav-link mx-4 self-center relative group">
+          <div class="nav-link mx-4 flex items-center relative group h-20">
             <a href="">EchoSystem<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg></a>
             <div
-              class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
+              class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
               <div class="submenu-item mb-1">
                 <a href="" class="submenu-item-link">Echosystem Progam</a>
               </div>
@@ -82,13 +82,13 @@
             </div>
           </div>
 
-          <div class="nav-link mx-4 self-center relative group">
+          <div class="nav-link mx-4 flex items-center relative group h-20">
             <a href="">Resources<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg></a>
             <div
-              class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
+              class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
               <div class="submenu-item mb-1">
                 <a href="" class="submenu-item-link">Whitepaper</a>
               </div>
@@ -106,13 +106,13 @@
               </div>
             </div>
           </div>
-          <div class="nav-link mx-4 self-center relative group">
+          <div class="nav-link mx-4 flex items-center relative group h-20">
             <a href="">Learn<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
               </svg></a>
             <div
-              class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
+              class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
               <div class="submenu-item mb-1">
                 <a href="" class="submenu-item-link">Acala</a>
               </div>
@@ -125,29 +125,42 @@
         </div>
       </div>
     </div>
-    <div class="bg-header bg-cover h-screen w-screen flex flex-col justify-center">
+    <div class="bg-header bg-cover h-screen flex flex-col justify-center">
       <div class="bg-header-section flex flex-col mt-10">
         <div class="bg-header-text flex flex-col">
-          <h1 class="text-heading leading-tight text-center w-4/5 font-semibold mx-auto text-white mb-10">The
+          <h1 class="text-7xl w-headingWidth leading-tight text-center font-semibold mx-auto text-white mb-10">The
             Decentralized Stablecoin of Polkadot</h1>
           <p class="font-medium text-white text-xl m-auto text-center mb-10">Integrate your DApp with aUSD, the native
             decentralized stablecoin of Polkadot and Kusama.</p>
         </div>
         <div class="bg-header-btns flex justify-center">
           <div
-            class="explore-btn border-2 text-sm text-center m-2 p-3 w-40 font-semibold text-blue-600 bg-white rounded-md cursor-pointer">
+            class="explore-btn border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-blue-600 bg-white rounded-md cursor-pointer">
             <a href="">EXPLORE AUSD</a></div>
           <div
-            class="funding-btn border-2 text-sm text-center m-2 p-3 font-semibold text-white bg-transparent rounded-md cursor-pointer">
+            class="funding-btn border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-white bg-transparent rounded-md cursor-pointer">
             <a href="">APPLY FOR FUNDING</a>
           </div>
         </div>
         <div class="bg-header-last text-white text-lg text-center w-full">
           <p>Ready to integrate aUSD ? <a class="underline cursor-pointer" href="">Talk to our team.</a></p>
         </div>
-
       </div>
     </div>
+    <div class="usd-section flex justify-center gap-x-28 w-full my-28">
+    <div class="usd-img w-1/5 mt-5"><img src="./images/usd-img.png" alt=""></div>  
+    <div class="usd-right flex flex-col w-2/5">
+      <div class="usd mb-5 text-lg text-blue-500 font-semibold">aUSD</div>
+      <div class="text-3xl font-semibold mb-5"><h2>A decentralized, multi-collateral, crypto-backed stablecoin</h2></div>
+      <div class="usd-text mb-10 text-base w-full tracking-widest text-left leading-normal font-light"><p>
+        aUSD is a decentralized, multi-collateralized stablecoin backed by cross-chain assets. Stable by design with value relative to the US Dollar, aUSD is the defacto stablecoin of Polkadot and Kusama. aUSD is powered by Acala, an application-specific blockchain customized for powering liquidity, economic activity, and stablecoin utility.
+      </p></div>
+      <div class="usd-btn flex">
+        <div class="learnmore border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-white bg-learnmoreBtn rounded-md cursor-pointer">LEARN MORE</div>
+        <div class="talk-to-team border-2 border-learnmoreBtn text-sm text-center m-2 p-4 w-52 font-semibold text-learnmoreBtn bg-white rounded-md cursor-pointer">TALK TO OUR TEAM</div>
+      </div>
+    </div>
+  </div>  
   </div>
 </body>
 

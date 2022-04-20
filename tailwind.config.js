@@ -6,12 +6,13 @@ module.exports = {
       colors : {
         redd : '#FF4C3B',
         oredd : '#E40C5B',
+        learnmoreBtn : '#645aff',
       },
       backgroundImage : {
         'header': "url('/images/acala-bg.png')"
       },
-      fontSize : {
-        'heading' : '4.7rem',
+      width : {
+        'headingWidth' : '1087px',
       }
     },
   },
