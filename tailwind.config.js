@@ -6,6 +6,9 @@ module.exports = {
       colors : {
         redd : '#FF4C3B',
         oredd : '#E40C5B',
+      },
+      backgroundImage : {
+        'header': "url('/images/acala-bg.png')"
       }
     },
   },
