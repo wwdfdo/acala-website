@@ -2,10 +2,17 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors : {
+        redd : '#FF4C3B',
+        oredd : '#E40C5B',
+      }
+    },
   },
   variants: {
-    extend: {},
+    extend: {
+      visibility : ['group-hover'],
+    },
   },
   plugins: [],
 }

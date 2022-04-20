@@ -4,35 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
 </head>
 <body>
 <div class="main">
   <div class="header bg-white border-b-2 ">
-    <div class="nav h-16 flex items-center justify-between relative mx-auto w-[1200px]">
+    <div class="nav h-20 flex items-center justify-between relative mx-auto w-4/5">
         <div class="logo mx-4">
        <a aria-current="page" class="active" href="/">
            <svg viewBox="0 0 1000 500" width="200px" height="50px" fill="none" xmlns="http://www.w3.org/2000/svg" style="height: 50%; padding-top: 0px; padding-bottom: 0px;"><path fill-rule="evenodd" clip-rule="evenodd" d="M245 490c135.31 0 245-109.69 245-245S380.31 0 245 0 0 109.69 0 245s109.69 245 245 245zm1-23c122.607 0 222-99.393 222-222S368.607 23 246 23 24 122.393 24 245s99.393 222 222 222zm-1-17c113.218 0 205-91.782 205-205S358.218 40 245 40 40 131.782 40 245s91.782 205 205 205zm.5-25c99.687 0 180.5-80.813 180.5-180.5S345.187 64 245.5 64 65 144.813 65 244.5 145.813 425 245.5 425zM235.313 98.664L365.988 325.36 380 301.05 263.338 98.664h-28.025zM110 300.641l111.842-194.026.231.4.22-.382 132.54 229.932h-28.025l-33.484-58.088c-15.215-4.81-31.414-7.404-48.22-7.404-8.663 0-17.117.605-25.336 1.812l16.14-27.956c3.047-.149 6.113-.224 9.196-.224 10.267 0 20.339.831 30.154 2.43l-53.195-92.284-98.05 170.099L110 300.641zm76.035-2.949l50.256-87.186-14.012-24.309-86.676 150.367h28.025l.266-.462c24.037-14.472 51.619-21.787 81.737-21.787 19.232 0 37.67 3.397 54.747 9.625l-18.775-32.52a187.142 187.142 0 00-35.972-3.472c-20.842 0-40.885 3.425-59.596 9.744z" fill="url(#Acala_new_logo_svg__paint0_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M607.253 269.482h45.876l-23.053-66.584-22.823 66.584zm64.55 54.686l-10.373-29.975h-62.706l-10.375 29.975H554L610.942 164h38.501l56.709 160.168h-34.349z" fill="url(#Acala_new_logo_svg__paint1_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M751.913 308.152c-11.681-11.898-17.52-27.687-17.52-47.364 0-19.677 5.839-35.466 17.52-47.363 11.68-11.899 26.818-17.847 45.416-17.847 15.522 0 28.508 3.738 38.961 11.21 10.45 7.477 17.44 18.078 20.979 31.805h-35.043c-4.15-10.524-12.448-15.788-24.897-15.788-9.377 0-16.713 3.397-22.016 10.183-5.302 6.79-7.953 16.056-7.953 27.8 0 11.747 2.651 21.015 7.953 27.8 5.303 6.79 12.639 10.182 22.016 10.182 12.295 0 20.593-5.338 24.897-16.016h35.043c-3.688 13.271-10.8 23.796-21.324 31.576-10.53 7.778-23.4 11.668-38.616 11.668-18.598 0-33.736-5.947-45.416-17.846z" fill="url(#Acala_new_logo_svg__paint2_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M983.194 288.133c6.761-6.635 10.142-15.748 10.142-27.342 0-11.591-3.381-20.707-10.142-27.344-6.765-6.635-14.68-9.953-23.745-9.953-9.071 0-16.944 3.282-23.629 9.839-6.687 6.561-10.03 15.638-10.03 27.229 0 11.594 3.38 20.746 10.144 27.457 6.762 6.714 14.64 10.067 23.629 10.067 8.992 0 16.866-3.317 23.631-9.953zm-73.198 19.447c-11.451-12.276-17.175-27.95-17.175-47.019 0-19.066 5.684-34.666 17.06-46.792 11.372-12.128 25.82-18.191 43.342-18.191 17.52 0 30.889 7.172 40.111 21.509v-19.679h32.276V324.17h-32.276v-21.279C983.652 318.299 970.202 326 952.99 326c-17.214 0-31.546-6.139-42.994-18.42z" fill="url(#Acala_new_logo_svg__paint3_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M1073.93 325.896h32.5V165.969h-32.5v159.927z" fill="url(#Acala_new_logo_svg__paint4_linear)"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M1234.29 287.628c6.76-6.635 10.14-15.748 10.14-27.342 0-11.591-3.38-20.707-10.14-27.343-6.76-6.635-14.68-9.953-23.74-9.953-9.07 0-16.95 3.282-23.63 9.839-6.69 6.561-10.03 15.637-10.03 27.228 0 11.594 3.38 20.747 10.14 27.458 6.76 6.713 14.64 10.066 23.63 10.066 8.99 0 16.87-3.316 23.63-9.953zm-73.19 19.448c-11.45-12.277-17.18-27.95-17.18-47.019 0-19.066 5.68-34.666 17.06-46.792 11.37-12.128 25.82-18.191 43.34-18.191 17.52 0 30.89 7.172 40.11 21.509v-19.679h32.28v126.761h-32.28v-21.278c-9.68 15.408-23.13 23.109-40.34 23.109-17.21 0-31.55-6.139-42.99-18.42z" fill="url(#Acala_new_logo_svg__paint5_linear)"></path><defs><linearGradient id="Acala_new_logo_svg__paint0_linear" x1="462.5" y1="490" x2="101" y2="43.5" gradientUnits="userSpaceOnUse"><stop stop-color="#5A81FF"></stop><stop offset="0.524" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient><linearGradient id="Acala_new_logo_svg__paint1_linear" x1="1285.41" y1="352.184" x2="1228.36" y2="60.854" gradientUnits="userSpaceOnUse"><stop offset="0.024" stop-color="#645AFF"></stop><stop offset="0.484" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient><linearGradient id="Acala_new_logo_svg__paint2_linear" x1="1285.41" y1="352.184" x2="1228.36" y2="60.854" gradientUnits="userSpaceOnUse"><stop offset="0.024" stop-color="#645AFF"></stop><stop offset="0.484" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient><linearGradient id="Acala_new_logo_svg__paint3_linear" x1="1285.41" y1="352.184" x2="1228.36" y2="60.854" gradientUnits="userSpaceOnUse"><stop offset="0.024" stop-color="#645AFF"></stop><stop offset="0.484" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient><linearGradient id="Acala_new_logo_svg__paint4_linear" x1="1285.41" y1="352.184" x2="1228.36" y2="60.854" gradientUnits="userSpaceOnUse"><stop offset="0.024" stop-color="#645AFF"></stop><stop offset="0.484" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient><linearGradient id="Acala_new_logo_svg__paint5_linear" x1="1285.41" y1="352.184" x2="1228.36" y2="60.854" gradientUnits="userSpaceOnUse"><stop offset="0.024" stop-color="#645AFF"></stop><stop offset="0.484" stop-color="#E40C5B"></stop><stop offset="1" stop-color="#FF4C3B"></stop></linearGradient></defs></svg></a>
         </div>
-        <div class="nav-bar flex font-sans-serif text-lg">
-            <div class="nav-link mx-3 self-center relative dropdown-toggle" id="dropdownMenuButton1h"><a href="">Acala</a>
-            <div class="sub-menu absolute w-[200px] top-12 bg-yellow-200 p-6" aria-labelledby="dropdownMenuButton1h">
-                <div class="submenu-item"><a href="" class="submenu-item-link">Acala Home</a></div>
-                <div class="submenu-item"><a href="" class="submenu-item-link">Join Acala</a></div>
-                <div class="submenu-item"><a href="" class="submenu-item-link">Acala Token</a></div>
-                <div class="submenu-item"><a href="" class="submenu-item-link">Protocol Wiki</a></div>
+        <div class="nav-bar flex flex-shrink-0  font-medium text-base md:invisible lg:visible">
+            <div class="nav-link mx-2 self-center relative group"><a href="">Acala<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg></a>
+            <div class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-1000 group-hover:opacity-100 rounded-md">
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Acala Home</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Join Acala</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Acala Token</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Protocol Wiki</a></div>
+            </div>
+            </div>
+            <div class="nav-link mx-4 self-center relative group"><a href="">Kamura<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg></a>
+            <div class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-1000 group-hover:opacity-100 rounded-md">
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Karura Home</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Join Karura</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Karura Token</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Apps Wiki</a></div>
             </div>
             </div>
 
-            <div class="nav-link mx-3 self-center"><a href="">Kamura</a></div>
-            <div class="nav-link mx-3 self-center"><a href="">aUSd</a></div>
-            <div class="nav-link mx-3 self-center"><a href="">EchoSystem</a></div>
-            <div class="nav-link mx-3 self-center"><a href="">Resources</a></div>
-            <div class="nav-link mx-3 self-center"><a href="">Learn</a></div>
-            <div class="nav-link mx-6 self-center bg-gradient-to-r from-[#FF4C3B] to-[#E40C5B] border-2 rounded-md px-6 py-2 text-white"><a href=""><button>App</button></a></div>
+            <div class="nav-link mx-4 self-center text-blue-600 relative group"><a href="">aUSD</a>
+    
+            </div>
+            <div class="nav-link mx-4 self-center relative group"><a href="">EchoSystem<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg></a>
+            <div class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-1000 group-hover:opacity-100 rounded-md">
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Echosystem Progam</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Teams</a></div>
+           </div>
+           </div>
+
+            <div class="nav-link mx-4 self-center relative group"><a href="">Resources<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg></a>
+            <div class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-1000 group-hover:opacity-100 rounded-md">
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Whitepaper</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Build on Acala</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Wiki</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Roadmap</a></div>
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Blog</a></div>
+            </div>
+            </div>
+            <div class="nav-link mx-4 self-center relative group"><a href="">Learn<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+              </svg></a>
+            <div class="sub-menu absolute w-60 top-8 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-1000 group-hover:opacity-100 rounded-md">
+                <div class="submenu-item mb-1"><a href="" class="submenu-item-link">Acala</a></div>  
+            </div>
+            </div>
+            <div class="nav-link mx-6 self-center bg-gradient-to-r from-redd to-oredd border-2 rounded-md w-32 text-center py-1 text-white"><a href=""><button>App</button></a></div>
         </div>
     </div>
+   </div>
+   <div class="bg-[url('/images/acala-bg.png')]">
+      
    </div>
 </div>
 </body>
