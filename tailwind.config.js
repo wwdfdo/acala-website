@@ -9,6 +9,9 @@ module.exports = {
       },
       backgroundImage : {
         'header': "url('/images/acala-bg.png')"
+      },
+      fontSize : {
+        'heading' : '4.7rem',
       }
     },
   },
