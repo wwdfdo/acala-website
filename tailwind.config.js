@@ -11,17 +11,19 @@ module.exports = {
         tokenBtnColor2: "#e40c5b",
         tokenBtnColor3: "#ff4c3b",
         kusamaBg: "#1a202c",
+        
       },
       backgroundImage: {
         header: "url('/images/acala-bg.png')",
         "acala-background": "url('/images/section-3.svg')",
-        "token-btn-bg":
+        tokenBtnbg:
           "linear-gradient(328deg, rgba(00, 90, 255) -40.69%, rgba(228, 12, 91) 36.17%, rgb(255, 76, 59) 79.87%)",
       },
       width: {
         headingWidth: "1087px",
         "acala-basis": "588px",
         "card-width": "388px",
+        partnerWidth :" calc(15.28571% - 73px)",
       },
       height: {
         "card-height": "260px",
@@ -33,7 +35,7 @@ module.exports = {
 
       borderWidth: {
         full: "100vw",
-        half: "50vh",
+        half: "60px",
       },
     },
   },
