@@ -1,4 +1,10 @@
 module.exports = {
+  mode : 'jit',
+  purge: [
+    './*.html',
+    './*.{js,jsx,ts,tsx,vue}',
+  ],
+
   content: ["./*.{html,js}"],
   theme: {
     extend: {
@@ -10,7 +16,7 @@ module.exports = {
         tokenBtnColor1: "#645aff",
         tokenBtnColor2: "#e40c5b",
         tokenBtnColor3: "#ff4c3b",
-        kusamaBg: "#1a202c",
+        kusamaBg: "#262626",
         
       },
       backgroundImage: {
@@ -31,6 +37,7 @@ module.exports = {
       },
       boxShadow: {
         "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+        team : "0 10px 30px rgb(65 32 255 / 11%)",
       },
 
       borderWidth: {
