@@ -40,6 +40,8 @@ let img = document.querySelector('.img');
 let name = document.querySelector('.name');
 let author = document.querySelector('.author');
 let slideshow = document.querySelector('.slide-show');
+const buttonRight = document.getElementById('right');
+const buttonLeft = document.getElementById('left');
 
 window.onload = () =>{
 
@@ -51,11 +53,15 @@ slideshow.innerHTML = createdSlides;
 
 slideshow.style.transform = 'translate3d(100px, 0px, 0px)';
 
+buttonRight.disabled = true;
+
+
+
 }
 
 
 function showSlides(slide){
-  return  `<li class="slide m-auto flex flex-col shadow-team items-center justify-stretch h-4">
+  return  `<li class="slide m-auto flex flex-col shadow-team items-center justify-stretch h-4 w-[200px]">
   <div><img class="img w-[108px] h-[108px] text-center mb-6" src="${slide.img}" alt=""></div>
   <div><p class=" text-center text-2xl mt-5">${slide.name}</p></div>
   <div><p class=" text-center text-lg mt-5">${slide.author}</p></div>
@@ -70,8 +76,7 @@ function random_sort (slides)
 
 
 
-const buttonRight = document.getElementById('right');
-const buttonLeft = document.getElementById('left');
+
 
 
 buttonRight.addEventListener('click',()=>{
@@ -83,4 +88,5 @@ buttonRight.addEventListener('click',()=>{
 buttonLeft.addEventListener('click',()=>{
 	slideshow.style.transform = 'translate3d(-350px, 0px, 0px)';
     buttonLeft.disabled = true;
+    buttonRight.disabled = false;
 })
