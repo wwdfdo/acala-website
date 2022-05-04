@@ -541,6 +541,18 @@ html {
   margin-right: 0.25rem;
 }
 
+.mb-\[5px\]{
+  margin-bottom: 5px;
+}
+
+.mb-\[10px\]{
+  margin-bottom: 10px;
+}
+
+.mb-\[20px\]{
+  margin-bottom: 20px;
+}
+
 .inline{
   display: inline;
 }
@@ -591,6 +603,10 @@ html {
 
 .w-\[50\%\]{
   width: 50%;
+}
+
+.w-\[24px\]{
+  width: 24px;
 }
 
 .cursor-pointer{
@@ -721,6 +737,16 @@ html {
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.py-20{
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .text-center{
