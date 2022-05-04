@@ -541,14 +541,6 @@ html {
   margin-right: 0.25rem;
 }
 
-.mb-\[5px\]{
-  margin-bottom: 5px;
-}
-
-.mb-\[10px\]{
-  margin-bottom: 10px;
-}
-
 .mb-\[20px\]{
   margin-bottom: 20px;
 }
@@ -561,6 +553,10 @@ html {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .h-\[60px\]{
   height: 60px;
 }
@@ -569,12 +565,20 @@ html {
   height: auto;
 }
 
+.h-\[140px\]{
+  height: 140px;
+}
+
 .max-h-full{
   max-height: 100%;
 }
 
 .w-full{
   width: 100%;
+}
+
+.w-\[24px\]{
+  width: 24px;
 }
 
 .w-28{
@@ -605,12 +609,16 @@ html {
   width: 50%;
 }
 
-.w-\[24px\]{
-  width: 24px;
-}
-
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-4{
+  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col{
@@ -645,6 +653,19 @@ html {
   gap: 1rem;
 }
 
+.gap-3{
+  gap: 0.75rem;
+}
+
+.gap-x-2{
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+
+.gap-y-3{
+  row-gap: 0.75rem;
+}
+
 .self-center{
   align-self: center;
 }
@@ -659,6 +680,10 @@ html {
 
 .rounded-2xl{
   border-radius: 1rem;
+}
+
+.rounded-md{
+  border-radius: 0.375rem;
 }
 
 .border-0{
@@ -695,6 +720,16 @@ html {
 
 .bg-transparent{
   background-color: transparent;
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-alphaBg{
@@ -739,14 +774,24 @@ html {
   padding-right: 2rem;
 }
 
-.py-20{
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
 .py-10{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-7{
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
 }
 
 .text-center{
