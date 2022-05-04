@@ -9,120 +9,29 @@
   <title>Document</title>
 </head>
 
-<body>
+<body class="bg-[#1b2026]">
   <div class="main mx-auto">
 
     <!-- Header Section -->
-    <div class="header-container w-full fixed bg-white border-b-2 z-10">
-      <div class="header m-auto w-4/5 h-20">
-        <div class="nav h-20 flex items-center justify-between relative mx-auto">
+    <div class="header-container w-full fixed bg-[#14181d] border-b-2 z-10">
+      <div class="header m-auto w-full h-[60px]">
+        <div class="nav h-[60px] flex items-center justify-between relative mx-auto">
           <div class="logo">
             <a aria-current="page" class="active" href="/">
-              <img class="h-14" src="./images/logo.svg" alt="logo">
+              <img class="max-h-full px-6" src="./images/TheSandboxLogo.svg" alt="logo">
             </a>
           </div>
-          <div class="nav-bar flex font-medium text-base items-stretch h-20">
-            <div class="nav-link mx-2 flex items-center relative group">
-              <a href="">Acala<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg></a>
-              <div
-                class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Acala Home</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Join Acala</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Acala Token</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Protocol Wiki</a>
-                </div>
-              </div>
-            </div>
-            <div class="nav-link mx-4 flex items-center relative group h-20">
-              <a href="">Kamura<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg></a>
-              <div
-                class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Karura Home</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Join Karura</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Karura Token</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Apps Wiki</a>
-                </div>
-              </div>
+          <div class="nav-bar flex font-medium text-base items-stretch h-60px">
+            <div class="mx-2 flex items-center text-white">
+              <a href="">globe</a>
             </div>
 
-            <div class="nav-link mx-4 self-center text-blue-600 relative group">
-              <a href="">aUSD</a>
-            </div>
-            <div class="nav-link mx-4 flex items-center relative group h-20">
-              <a href="">EchoSystem<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg></a>
-              <div
-                class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Echosystem Progam</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Teams</a>
-                </div>
-              </div>
-            </div>
 
-            <div class="nav-link mx-4 flex items-center relative group h-20">
-              <a href="">Resources<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg></a>
-              <div
-                class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Whitepaper</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Build on Acala</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Wiki</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Roadmap</a>
-                </div>
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Blog</a>
-                </div>
-              </div>
+            <div class="nav-link mx-4 self-center text-white bg-blue-600 w-28 py-1 px-5 text-center rounded-3xl">
+              <a href="">Sing in</a>
             </div>
-            <div class="nav-link mx-4 flex items-center relative group h-20">
-              <a href="">Learn<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-5 inline" fill="none"
-                  viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
-                </svg></a>
-              <div
-                class="sub-menu absolute w-60 top-16 bg-white border-2 p-4 invisible opacity-0 group-hover:visible transition duration-200 group-hover:opacity-100 rounded-md">
-                <div class="submenu-item mb-1">
-                  <a href="" class="submenu-item-link">Acala</a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="border-0 nav-link mx-6 self-center bg-gradient-to-r from-redd to-oredd rounded-md w-32 text-center py-2 px-6 ">
-              <a class="text-white font-semibold" href=""><button>APPS</button></a>
+            <div class="border-0 text-center py-2 px-3 ">
+              <a class="text-white font-semibold" href=""><button>bucket</button></a>
             </div>
           </div>
         </div>
@@ -130,452 +39,212 @@
     </div>
     <!-- First Section -->
 
-    <div class="bg-header bg-cover h-screen flex flex-col justify-center">
-      <div class="bg-header-section flex flex-col mt-10">
-        <div class="bg-header-text flex flex-col">
-          <h1 class="text-7xl w-headingWidth leading-tight text-center font-semibold mx-auto text-white mb-10">The
-            Decentralized Stablecoin of Polkadot</h1>
-          <p class="font-medium text-white text-xl m-auto text-center mb-10">Integrate your DApp with aUSD, the native
-            decentralized stablecoin of Polkadot and Kusama.</p>
-        </div>
-        <div class="bg-header-btns flex justify-center">
-          <div
-            class="explore-btn border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-blue-600 bg-white rounded-md cursor-pointer">
-            <a href="">EXPLORE AUSD</a>
-          </div>
-          <div
-            class="funding-btn border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-white bg-transparent rounded-md cursor-pointer">
-            <a href="">APPLY FOR FUNDING</a>
-          </div>
-        </div>
-        <div class="bg-header-last text-white text-lg text-center w-full">
-          <p>Ready to integrate aUSD ? <a class="underline cursor-pointer" href="">Talk to our team.</a></p>
-        </div>
-      </div>
+    <div class="bg-[#14181d] bg-cover h-auto flex flex-col justify-center">
+      <video data-v-f4dfdd7c="" src="https://installers.sandbox.game/bestmoments-220401-1-HD.webm" autoplay="autoplay"
+        loop="loop" preload="auto" muted="muted"></video>
+
     </div>
 
     <!-- Second Section -->
 
-    <div class="usd-section flex justify-center gap-x-28 w-full my-20">
-      <div class="usd-img w-1/5 mt-5"><img src="./images/usd-img.png" alt=""></div>
-      <div class="usd-right flex flex-col w-2/5">
-        <div class="usd mb-5 text-lg text-blue-500 font-semibold">aUSD</div>
-        <div class="text-3xl font-semibold mb-5">
-          <h2>A decentralized, multi-collateral, crypto-backed stablecoin</h2>
-        </div>
-        <div class="usd-text mb-10 text-base w-full tracking-widest text-left leading-normal font-light">
-          <p>
-            aUSD is a decentralized, multi-collateralized stablecoin backed by cross-chain assets. Stable by design with
-            value relative to the US Dollar, aUSD is the defacto stablecoin of Polkadot and Kusama. aUSD is powered by
-            Acala, an application-specific blockchain customized for powering liquidity, economic activity, and
-            stablecoin utility.
-          </p>
-        </div>
-        <div class="usd-btn flex">
-          <div
-            class="learnmore border-2 text-sm text-center m-2 p-4 w-52 font-semibold text-white bg-learnmoreBtn rounded-md cursor-pointer">
-            LEARN MORE</div>
-          <div
-            class="talk-to-team border-2 border-learnmoreBtn text-sm text-center m-2 p-4 w-52 font-semibold text-learnmoreBtn bg-white rounded-md cursor-pointer">
-            TALK TO OUR TEAM</div>
-        </div>
-      </div>
-    </div>
+    <div class="w-3/5 mx-auto ">
+      <div class="whats-new  mt-20">
+        <div>
+          <div class="flex justify-between">
+            <div>
+              <p class="text-[#00b0ff] font-semibold text-2xl">COMMUNITY</p>
+              <h2 class="text-white font-semibold text-5xl mt-4">WHAT'S NEW</h2>
+            </div>
 
-    <!-- Third-section -->
+            <div><a class="text-[#00b0ff] font-semibold" href="#">Read more >></a></div>
+          </DIV>
 
-    <div class="bg-acala-background bg-cover bg-acalaBackgound">
-      <div class="acala-section  w-4/5 m-auto">
-        <div class="acala-text-sec flex flex-col items-center text-center">
-          <div class="text-xl text-learnmoreBtn font-semibold mb-4 mt-20">ACALA</div>
-          <div class="text-4xl font-semibold w-1/2 mb-8">
-            <h2>A decentralized finance network powering the aUSD ecosystem</h2>
-          </div>
-          <div class="text-lg w-11/12">
-            <p>Acala is a decentralized finance network powering the aUSD ecosystem. It's a layer-1 smart contract
-              platform that's scalable, Ethereum-compatible, and optimized for DeFi. With the Acala EVM+, Acala lets
-              developers leverage the aUSD ecosystem while enjoying the best of Ethereum and the full power of
-              Substrate.</p>
-          </div>
         </div>
-      </div>
-      <div>
-        <div class="flex justify-center gap-4 w-4/5 mx-auto mt-20">
-          <div class="bg-white shadow-3xl box-border w-4/6 px-6 py-6 transition delay-200 duration-200 ease-in-out">
-            <div class="mb-4 w-14 h-14"><img src="./images/acala-icon-1.svg" alt=""></div>
-            <div class="mb-4">
-              <h3 class="text-2xl font-medium">Polkadot’s Economic Hub</h3>
-            </div>
-            <div class="text-base">
-              <p>Access DOT-based assets and derivatives, Polkadot-native decentralized stablecoin, Polkadot ecosystem
-                assets, and cross-chain assets from Bitcoin, Ethereum and beyond.</p>
-            </div>
-          </div>
-          <div class="bg-white shadow-3xl box-border w-4/6 px-6 py-6 transition delay-300 duration-300 ease-in-out">
-            <div class="mb-4 w-14 h-14"><img src="./images/acala-icon-2.svg" alt=""></div>
-            <div class="mb-4">
-              <h3 class="text-2xl font-medium">DeFi Optimization</h3>
-            </div>
-            <div class="text-base">
-              <p>Acala’s chain is customized for DeFi and can continue to upgrade without forks to integrate new
-                features requested from developers. For example, on-chain ‘keepers’ automate protocol execution to
-                better manage risks and improve user experience, or transaction fees payable with virtually any token to
-                reduce user friction.</p>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-center gap-4 w-4/5 mx-auto mt-10">
-          <div class="bg-white shadow-3xl box-border w-4/6 px-6 py-6 transition delay-500 duration-500 ease-in-out">
-            <div class="mb-4 w-14 h-14"><img src="./images/acala-icon-3.svg" alt=""></div>
-            <div class="mb-4">
-              <h3 class="text-2xl font-medium">Acala Dollar Stablecoin</h3>
-            </div>
-            <div class="text-base">
-              <p>aUSD is the built-in programmable primitive of the Acala network. aUSD is the Polkadot-native
-                decentralized stablecoin backed by DOT, DOT derivatives and cross-chain assets like BTC or ETH.</p>
-            </div>
-          </div>
-          <div class="bg-white shadow-3xl box-border w-4/6 px-6 py-6 transition delay-200 duration-200 ease-in-out">
-            <div class="mb-4 w-14 h-14"><img src="./images/acala-icon-4.svg" alt=""></div>
-            <div class="mb-4">
-              <h3 class="text-2xl font-medium">Ethereum Compatibility</h3>
-            </div>
-            <div class="text-base">
-              <p>Acala’s layer-1 platform offers the best of both Ethereum and Substrate environments. Compatible with
-                established tech stacks, tooling, and wallets like MetaMask.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="p-20 mt-16"><img class="m-auto" src="./images/acala-mobile-image.png" alt=""></div>
-    </div>
-
-    <!-- Fourth Section -->
-
-    <div class="fourth-section">
-      <div class="flex justify-center w-4/5 mx-auto gap-6 my-20">
-        <div class="w-1/3 text-4xl leading-relaxed font-medium">Pay a fraction of the gas in any token.</div>
-        <div class="w-1/3 bg-gray-100 box-border p-10 pb-20 rounded-lg  shadow-md">
-          <div><img src="./images/fourth-sec-icon-1.svg" alt=""></div>
+        <div class="flex gap-5 mt-10">
           <div>
-            <p class="font-semibold text-2xl leading-10 mt-6">Micro gas fees</p>
-          </div>
-          <div><img src="./images/fouth-section-line.svg" alt=""></div>
-          <div class="text-base mt-6">
-            <p>Acala settles transactions for a fraction of the gas required on other networks.
-              <br>
-              <br>
-              Thanks to Polkadot’s weight-based fee model, you can count on micro gas fees that vary only slightly by
-              transaction complexity.
-            </p>
-          </div>
-        </div>
-        <div class="w-1/3 bg-gray-100 box-border p-10 pb-20 rounded-lg shadow-md">
-          <div><img src="./images/fourth-sec-icon-2.svg" alt=""></div>
-          <div class="font-semibold text-2xl leading-10 mt-6">
-            <p>Accepted in any token</p>
-          </div>
-          <div><img src="./images/fouth-section-line.svg" alt=""></div>
-          <div class="text-base mt-6">
-            <p>Pay your gas with virtually any token.
-              <br>
-              <br>
-              With Acala’s flexible fee tokens, you can settle transactions with USDT, USDC, aUSD, DOT, BTC, ETH, and
-              more.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="text-center">
-          <div class="m-10 text-4xl font-semibold">
-            <h3>Powering Acala</h3>
-          </div>
-          <div class="mb-20 text-xl">
-            <p>ACA is the utility token that powers the DeFi hub of Polkadot.</p>
-          </div>
-        </div>
-        <div class="flex flex-col">
-          <div class="flex justify-center gap-10 w-4/5 mx-auto mb-28">
-            <div class="flex flex-col items-center bg-gray-100 box-border w-card-width h-card-height rounded-xl">
-              <div><img class="transform -translate-y-8" src="./images/fourth-sec-icon-3.svg" alt=""></div>
-              <p class="text-xl font-bold mb-6">Transaction Fees</p>
-              <p class="text-center px-5">Powers the micro gas fees and smart contract execution.</p>
+            <div><img class="rounded-lg" src="./images/whatsnew-img-1.jpg" alt=""></div>
+            <div>
+              <p class="text-[#3bbff0]">LAND SALES</p>
             </div>
-            <div class="flex flex-col items-center bg-gray-100 box-border w-card-width h-card-height rounded-xl">
-              <div><img class="transform -translate-y-8" src="./images/fourth-sec-icon-4.svg" alt=""></div>
-              <p class="text-xl font-bold mb-6">Node Incentivisation</p>
-              <p class="text-center px-5">Incentivizes network nodes to monitor and relay messages to Polkadot.</p>
+            <div>
+              <h2 class="text-white">The Mega City 2 LAND Sale</h2>
+            </div>
+            <div>
+              <p class="text-[#fff] opacity-[0.5]">Apr 25, 2022 - 11 min read
+              </p>
+            </div>
+            <div>
+              <i>twitter</i>
+              <i>facebook</i>
+              <i>telegram</i>
             </div>
           </div>
-          <div class="flex justify-center gap-10 w-4/5 mx-auto">
-            <div class="flex flex-col items-center bg-gray-100 box-border w-card-width h-card-height rounded-xl">
-              <div><img class="transform -translate-y-8" src="./images/fourth.sec-icon-5.svg" alt=""></div>
-              <p class="text-xl font-bold mb-6">Governance</p>
-              <p class="text-center px-5">Empowers the community to vote, elect council members, and drive the
-                development of Acala.</p>
+          <div>
+            <div><img class="rounded-lg" src="./images/whatsnew-img-2.png" alt=""></div>
+            <div>
+              <p class="text-[#3bbff0]">ANNOUNCEMENTS</p>
             </div>
-            <div class="flex flex-col items-center bg-gray-100 box-border w-card-width h-card-height rounded-xl">
-              <div><img class="transform -translate-y-8" src="./images/fourth-sec-icon-6.svg" alt=""></div>
-              <p class="text-xl font-bold mb-6">Algorithmic Risk Adjustment</p>
-              <p class="text-center px-5">Auto-adjusts risk parameters such as interest rates or collateral ratio.</p>
+            <div>
+              <h2 class="text-white">Ukraine 24.02.2022 — NFT Collection</h2>
             </div>
-            <div class="flex flex-col items-center bg-gray-100 box-border w-card-width h-card-height rounded-xl">
-              <div><img class="transform -translate-y-8" src="./images/fourth-sec-icon-7.svg" alt=""></div>
-              <p class="text-xl font-bold mb-6">Pallet Deployment</p>
-              <p class="text-center px-5">Allows teams to deploy new Substrate pallets on the Acala blockchain by
-                staking ACA.</p>
+            <div>
+              <p class="text-[#fff] opacity-[0.5]">Apr 25, 2022 - 3 min read</p>
+            </div>
+            <div>
+              <i>twitter</i>
+              <i>facebook</i>
+              <i>telegram</i>
             </div>
           </div>
-          <div class="mx-auto text-sm text-white font-semibold my-20 px-12 py-4 rounded-lg bg-tokenBtnbg"><a href="">AKA
-              TOKEN DETAILS</a></div>
+          <div>
+            <div><img class="rounded-lg" src="./images/whatsnew-img-3.png" alt=""></div>
+            <div>
+              <p class="text-[#3bbff0]">ANNOUNCEMENTS</p>
+            </div>
+            <div>
+              <h2 class="text-white">Preparing for LAND Smart Contract Migration to Layer 2</h2>
+            </div>
+            <div>
+              <p class="text-[#fff] opacity-[0.5]">Apr 22, 2022 - 3 min read
+              </p>
+            </div>
+            <div>
+              <i>twitter</i>
+              <i>facebook</i>
+              <i>telegram</i>
+            </div>
+          </div>
         </div>
       </div>
 
+      <!-- Third section -->
 
+      <div class="flex items-center">
+        <div class="mt-10">
+          <p class="text-[#00b0ff] font-semibold text-xl">COMPLETE THE SURVEY</p>
+          <h2 class="text-white text-[45px] font-semibold leading-tight">EARN 10 RAFFLE TICKETS FOR SEASON 3</h2>
+          <p class="text-white text-base">Help us improving The Sandbox by sending your feedback. Complete the survey
+            now and get
+            extra Raffle
+            Tickets
+            for Alpha Season 3!</p>
+          <div class="flex items-center">
+            <span
+              class="text-white text-sm font-semibold py-1 px-8 bg-transparent rounded-2xl border-2 border-white mr-2 cursor-pointer">TAKE
+              THE
+              SURVEY</span>
+            <span class="text-[#ffbf36] text-[42px] font-semibold mr-2"> + 10 </span> <img class="w-[120px]"
+              src="./images/multi-ticket.png" alt="">
+          </div>
 
-    </div>
-
-    <!-- Fifth Section  -->
-    <div>
-      <div class="bg-kusamaBg w-screen h-[830px]">
-        <div class="border-t-half border-r-full border-r-kusamaBg"></div>
-        <div class="flex justify-center gap-40 w-4/5 mx-auto">
-          <div class="kusama-div">
-        <div class="kusama-bg-img"><img class="w-[550px] absolute left-[6%] -mt-[48px]" src="./images/kusama-logo.svg" alt=""></div>
+        </div>
+        <div class="relative">
+          <img class=" " src="./images/gradient-overlay.svg" alt="">
+          <img class="feed-back absolute top-[24%] left-[44%] w-[63%]" src="./images/survey.png" alt="">
+        </div>
       </div>
-        <div class="flex flex-col justify-center ml-[40%] mt-[15%]">
-          <img class="w-[200px]" src="./images/karura.svg" alt="">
-          <h2 class="mt-10 text-white text-4xl font-semibold">Acala’s sister network, Karura, is the DeFi Hub of Kusama.</h2>
+
+
+      <!-- Fourth Section -->
+      <div class="flex items-center gap-4">
+        <div>
+          <img class="w-[60%] mx-auto" src="./images/memorabilia-glow.png" alt="">
+          <img class="mt-[-50px]" src="./images/memorabilia-home.png" alt="">
+        </div>
+        <div>
+          <p class="text-xl font-semibold text-[#00b0ff]">ALPHA SEASON 2</p>
+          <h2 class="text-[45px] leading-[50px] font-semibold text-white">MEMORABILIA</h2>
+          <P class="text-white">All players who reached level 5 won the Alpha S2 Memorabilia. It will grant rewards for
+            all future seasons.
+          </P>
           <br>
-          <p class="text-white">Karura is the multi-chain liquidity and economic centre on Kusama for radical innovation.</p>
-          <br>
-          <p class="text-white">Account Holders78,921</p>
-          <br>
-          <p class="text-white">Stablecoin Issuance$5,466,160.77</p>
-          <br>
-          <p class="text-white">TVL$97,938,133.40</p>
+          <P class="text-white">The memorabilia is not an NFT.</P> <br>
+          <P><img class="w-[20px] inline mr-1" src="./images/not-icon.svg" alt=""><span class="text-white">You didn't
+              win the
+              memorabilia</span>
+          </P>
         </div>
       </div>
-      </div>
     </div>
 
+    <div class="bg-alphaBg bg-no-repeat w-full">
+      <div class="w-3/5 mx-auto flex flex-col">
+        <div class="flex flex-col justify-start">
+          <p>A LOOK BACK AT</p>
+          <h2>ALPHA SEASON 2</h2>
+        </div>
+        <div>
+          <div class="flex justify-center">
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
+            <div class="w-[50%] flex items-center justify-center">
 
-    <!-- Sixth Section -->
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
 
-
-    <div class="flex flex-col items-center py-20 bg-[#f9f9f9]">
-      <h1 class="text-black text-center m-auto text-4xl font-semibold mb-20">Meet Our Team</h1>
-      <div class="slideshow-container overflow-hidden w-4/5">
-      <ul class="slide-show flex mx-auto justify-center gap-7 ease-in-out duration-1000">
-        <!-- <div class="slide m-auto flex flex-col items-center bg-slate-400 h-80">
-          <div class="w-[108px] h-[108px]"><img class="img" src="./images/Dan-Reecer.png" alt=""></div>
-          <p class="name">Dan Reecer</p>
-          <p class="author">Chief Growth Officer</p>
-        </div> -->
-      </ul>
-    </div>
-      <div class="flex gap-10 mt-16">
-        <button id="left" class="transform rotate-180 py-2.5 px-3.5 bg-white rounded-[24px] border-2 border-solid border-[#ecf0f2]"><img src="./images/prev-icon.svg" alt=""></button>
-        <button id="right" class="py-2.5 px-3.5 bg-white rounded-[24px] border-2 border-solid border-[#ecf0f2]"><img src="./images/next-icon.svg" alt=""></button>
-      </div>
-    </div>
-
-    <!-- Seventh Section -->
-
-    <div>
-      <h2 class="my-32 text-4xl font-semibold text-center">Partners</h2>
-      <div class="flex flex-wrap gap-x-[60px] gap-y-[40px] w-[1200px] mx-auto">
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-1.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-2.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-3.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-4.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-5.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-6.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-7.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-8.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-9.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-10.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-11.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-12.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-13.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-14.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-15.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-16.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-17.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-18.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-19.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-20.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-21.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-22.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-23.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-24.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-25.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-26.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-27.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-28.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-29.svg"
-            alt=""></div>
-        <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-30.svg"
-            alt=""></div>
-      </div>
-    </div>
-
-
-    <!-- Eight Section -->
-
-    <div>
-      <h3 class="text-center text-4xl font-semibold my-32">Ecosystem Projects</h3>
-      <div class="flex w-5/6 justify-center mx-auto gap-36">
-        <div class="flex flex-col w-7/12">
-          <div class="mb-20 text-xl leading-loose font-light"> This program identifies, engages and supports projects
-            that are deploying on Acala, integrating with Acala’s
-            technologies. Ecosystem projects will have opportunities for technical, funding and marketing collaborations
-            and
-            beyond.</div>
-          <div class="flex justify-center gap-6 text-sm font-semibold">
-            <div class="bg-tokenBtnbg py-5 px-7 rounded-md">BUILD WITH ACALA</div>
-            <div class="bg-white border-2 border-red-600 py-5 px-7 rounded-md text-red-500">EXPLORE THE ECOSYSTEM</div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="w-[50%] flex items-center justify-center">
+              <div><img src="./images/sand-distributed-icon.png" alt=""></div>
+              <div>
+                <p>10M</p>
+                <P>SAND DISTRIBUTED</P>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="w-5/12"><img src="./images/ecosystem-img.png" alt=""></div>
       </div>
     </div>
 
-    <!-- Nineth Section -->
-
-    <div class="flex flex-wrap gap-x-[60px] gap-y-[40px] w-[1200px] mx-auto">
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-a.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-b.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-c.png" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-d.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-e.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-f.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-g.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-h.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-i.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-j.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-k.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-l.png" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-m.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-n.png" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-o.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-p.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-q.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-r.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-s.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-t.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-u.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-v.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-w.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-x.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-y.svg" alt="">
-      </div>
-      <div class="flex justify-center items-center w-partnerWidth mr-5 -ml-3 h-20"><img src="./images/pi-z.svg" alt="">
-      </div>
-
-    </div>
 
     <!-- Footer Section -->
 
-    <footer class="bg-gray-100 w-screen">
-      <div class="w-4/5 mx-auto">
-        <div class="flex justify-center gap-72">
-          <div class="flex flex-col gap-y-16">
-            <h2 class="font-bold text-2xl mt-10">Acala Foundation</h2>
-            <div class="flex gap-32">
-              <div class="footer-list flex flex-col gap-4">
-                <p class="font-semibold">Resources</p>
-                <p><a href="">Whitepaper</a></p>
-                <p><a href="">Wiki</a></p>
-                <p><a href="">Roadmap</a></p>
-              </div>
-              <div class="footer-list flex flex-col gap-4">
-                <p class="font-semibold">Products</p>
-                <p>Testnet Apps</p>
-                <p>Console</p>
-                <p>Explorer</p>
-              </div>
-              <div class="footer-list flex flex-col gap-4">
-                <p class="font-semibold">Foundation</p>
-                <p><a href="">Contact Us</a></p>
-                <p><a href="">Career <span>Hiring</span></a></p>
-              </div>
-            </div>
-            <div class="flex gap-5">
-              <div class="social-icon"><a href=""><img src="./images/twitter.svg" alt=""></a></div>
-              <div class="social-icon"><a href=""><img src="./images/linkedin.svg" alt=""></a></div>
-              <div class="social-icon"><a href=""><img src="./images/telegram.svg" alt=""></a></div>
-              <div class="social-icon"><a href=""><img src="./images/discord.svg" alt=""></a></div>
-              <div class="social-icon"><a href=""><img src="./images/github.svg" alt=""></a></div>
-              <div class="social-icon"><a href=""><img src="./images/home-pink.svg" alt=""></a></div>
-            </div>
-          </div>
-          <div class="flex flex-col justify-center max-w-[330px] gap-y-5">
-            <p class="font-normal">Subscribe to the newsletter to hear about Acala & Karura updates and events.</p>
-            <div class="bg-tokenBtnbg w-52 text-center items-center py-3 rounded-full">SUBSCRIBE</div>
-          </div>
-        </div>
-        <p class="text-center pb-8 mt-32 text-sm">© 2021 Acala Foundation | <a href="">Privacy</a></p>
-      </div>
-  </div>
-  </footer>
+
 
 
   </div>
-  <script src="./js/scripts.js"></script>
+  <script src="./js/scripts.js" defer></script>
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1011.994" height="1011.994" viewBox="0 0 1011.994 1011.994">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6bf3ff"/>
+      <stop offset="0.37" stop-color="#4189a0" stop-opacity="0.627"/>
+      <stop offset="0.787" stop-color="#161e41" stop-opacity="0.208"/>
+      <stop offset="0.992" stop-color="#161e41" stop-opacity="0"/>
+      <stop offset="1" stop-color="#161e41" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path id="Gradient_Overlay" data-name="Gradient Overlay" d="M506,0c279.454,0,506,226.543,506,506s-226.543,506-506,506S0,785.451,0,506,226.543,0,506,0Z" fill="url(#radial-gradient)" style="mix-blend-mode: lighten;isolation: isolate"/>
+</svg>
